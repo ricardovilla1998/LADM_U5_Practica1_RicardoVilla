@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            app:srcCompat="@drawable/tec" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESTAS EN"
+        android:textColor="#161617"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Lugar a buscar"
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="93dp"
+            android:layout_height="67dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/mapa" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POSICION ACTUAL:"
+        android:textColor="#0000FF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar busqueda" />
+
+    <TextView
+        android:id="@+id/textView_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESULTADO"
+        android:textColor="#9C6218"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>
